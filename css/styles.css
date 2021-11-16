@@ -212,7 +212,7 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
 
-  color: #212121;
+  color: var(--black-color);
 }
 
 /* our team section */
