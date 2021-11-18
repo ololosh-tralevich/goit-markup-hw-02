@@ -41,7 +41,7 @@ body {
   border-radius: 4px;
   letter-spacing: 0.03em;
   font-size: 16px;
-  line-height: 26px;
+  line-height: 1.62;
 }
 
 .button:hover {
@@ -98,7 +98,7 @@ body {
 .portfolio {
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--hover-color);
 }
@@ -106,7 +106,7 @@ body {
 .contact {
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.02em;
 
   color: var(--black-color);
@@ -134,14 +134,14 @@ body {
 .projects-name {
   font-weight: bold;
   font-size: 18px;
-  line-height: 36px;
+  line-height: 2;
   letter-spacing: 0.06em;
   color: var(--black-color);
 }
 
 .projects-description {
   font-size: 16px;
-  line-height: 30px;
+  line-height: 1.87;
   letter-spacing: 0.03em;
   color: var(--grey-color);
 }
@@ -156,7 +156,7 @@ body {
   margin: 0;
   font-weight: 900;
   font-size: 44px;
-  line-height: 60px;
+  line-height: 1.36;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--white-color);
@@ -169,13 +169,13 @@ body {
   border-radius: 4px;
   letter-spacing: 0.03em;
   font-size: 16px;
-  line-height: 26px;
+  line-height: 1.62;
   cursor: pointer;
 }
 
 .order-button-text {
   font-size: 16px;
-  line-height: 30px;
+  line-height: 1.87;
   letter-spacing: 0.06em;
   color: var(--white-color);
 }
@@ -184,7 +184,7 @@ body {
 .about-us-caption {
   font-weight: bold;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 
@@ -194,11 +194,8 @@ body {
 .about-us-description {
   font-weight: normal;
   font-size: 14px;
-  line-height: 24px;
-  /* or 171% */
-
+  line-height: 1.71;
   letter-spacing: 0.03em;
-
   color: var(--grey-color);
 }
 
@@ -206,7 +203,7 @@ body {
 .what-we-do {
   font-weight: bold;
   font-size: 36px;
-  line-height: 42px;
+  line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
 
@@ -221,7 +218,7 @@ body {
 .our-team-caption {
   font-weight: bold;
   font-size: 36px;
-  line-height: 42px;
+  line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
 }
@@ -236,7 +233,7 @@ body {
 .team-member-name {
   font-weight: 500;
   font-size: 16px;
-  line-height: 19px;
+  line-height: 1.18;
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--black-color);
@@ -246,7 +243,7 @@ body {
   margin: 0px;
   font-weight: normal;
   font-size: 16px;
-  line-height: 19px;
+  line-height: 1.18;
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--grey-color);
@@ -261,7 +258,7 @@ body {
   font-family: 'Raleway', sans-serif;
   font-weight: bold;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--hover-color);
 }
@@ -270,7 +267,7 @@ body {
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--white-color);
 }
@@ -282,7 +279,7 @@ body {
 .email {
   font-weight: normal;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.71;
 
   letter-spacing: 0.03em;
 
@@ -292,7 +289,7 @@ body {
 .tel {
   font-weight: normal;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.71;
   /* or 171% */
 
   letter-spacing: 0.03em;
