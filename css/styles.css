@@ -112,6 +112,10 @@ body {
   color: var(--black-color);
 }
 
+.contacts {
+  margin-left: 40px;
+}
+
 /* main section */
 .header-border {
   border: 1px solid var(--border-color);
@@ -149,6 +153,7 @@ body {
 }
 
 .h1 {
+  margin: 0;
   font-weight: 900;
   font-size: 44px;
   line-height: 60px;
@@ -159,9 +164,13 @@ body {
 
 .order-button {
   font-family: var(--main-font);
-  background: var(--hover-color);
+  background-color: var(--hover-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
+  letter-spacing: 0.03em;
+  font-size: 16px;
+  line-height: 26px;
+  cursor: pointer;
 }
 
 .order-button-text {
