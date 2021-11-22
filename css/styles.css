@@ -10,6 +10,7 @@
   --border-color: #ececec;
   --projects-color: #eeeeee;
   --order-block-color: #2f303a;
+  --footer-contacts-color: rgba(255, 255, 255, 0.6);
 }
 
 ::before,
@@ -64,6 +65,10 @@ body {
 }
 
 /* Header section */
+.header {
+  border-bottom: 1px solid var(--border-color);
+}
+
 .logo {
   font-family: var(--secondary-font), sans-serif;
 
@@ -116,10 +121,6 @@ body {
   margin-left: 40px;
 }
 
-/* main section */
-.header-border {
-  border: 1px solid var(--border-color);
-}
 
 /* page portfolio */
 .projects-img-block {
@@ -276,23 +277,18 @@ body {
   color: var(--white-color);
 }
 
-.email {
-  font-weight: normal;
+.email, .tel,
+.footer-email,
+.footer-tel {
+  font-weight: 500;
   font-size: 14px;
   line-height: 1.71;
-
   letter-spacing: 0.03em;
-
   color: var(--grey-color);
 }
 
-.tel {
+.footer-email,
+.footer-tel {
   font-weight: normal;
-  font-size: 14px;
-  line-height: 1.71;
-  /* or 171% */
-
-  letter-spacing: 0.03em;
-
-  color: var(--grey-color);
+  color: var(--footer-contacts-color);
 }
